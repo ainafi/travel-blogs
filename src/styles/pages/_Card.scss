@@ -1,0 +1,39 @@
+.card{
+    max-width:251px ;
+    border: 0.2px solid;
+    text-align: center;
+    box-shadow: 1px -1px 20px 0px rgba(170, 80, 80, 0.2);
+    border-radius: 10px;
+    position: relative;
+    img{
+        width: 250px;
+        border-radius: 20px;
+    }
+    .card--stats{
+        margin-left: 4rem;
+        width: 250px;
+        display: flex;
+        align-items: center;
+        
+        span{
+            padding: 7px;
+            
+         }
+         
+    }
+    
+}
+
+.card--section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.badge{
+    position: absolute;
+    width: 90px;
+    top: 0px;
+    background-color: rgb(202, 141, 141);
+    border-radius: 10px;
+}
